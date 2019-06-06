@@ -2,6 +2,7 @@ import urllib.request
 import urllib.parse
 import sys
 import io
+#how to use parmas
 
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
