@@ -8,8 +8,8 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 imgUrl ="http://post.phinf.naver.net/20160621_169/1466482468068lmSHj_JPEG/If7GeIbOPZuYwI-GI3xU7ENRrlfI.jpg"
 htmlURL ="http://google.com"
 
-savePath1 ="c:/test1.jpg"
-savePath2 ="c:/index.html"
+savePath1 ="/Users/moon/Downloads/IMGSave.jpg"
+savePath2 ="/Users/moon/Downloads/IMGSave1.jpg"
 
 f = dw.urlopen(imgUrl).read()
 f2 = dw.urlopen(htmlURL).read()
@@ -23,4 +23,4 @@ with open(savePath2,'wb') as saveFile2:
 
 
 
-print("다운로드 완료!")
+print("down complete")
